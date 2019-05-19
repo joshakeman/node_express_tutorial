@@ -1,0 +1,31 @@
+{
+  "name": "node_express_tutorial",
+  "version": "1.0.0",
+  "description": "Written following this tutorial:\r Part 1: https://www.codementor.io/olawalealadeusi896/building-simple-api-with-es6-krn8xx3k6\r Part 2: https://www.codementor.io/olawalealadeusi896/building-a-simple-api-with-nodejs-expressjs-and-postgresql-db-masuu56t7",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshakeman/node_express_tutorial.git"
+  },
+  "author": "Josh Akeman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joshakeman/node_express_tutorial/issues"
+  },
+  "homepage": "https://github.com/joshakeman/node_express_tutorial#readme",
+  "dependencies": {
+    "express": "^4.17.0",
+    "moment": "^2.24.0",
+    "nodemon": "^1.19.0",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-watch": "^7.0.0"
+  }
+}
